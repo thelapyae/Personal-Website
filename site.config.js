@@ -7,12 +7,12 @@ module.exports = {
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'TheLaPyae',
+  name: 'TheLaPyae - No Code Brand Strategist from Yangon',
   domain: 'blog.thelapyae.com',
   author: 'La Pyae',
 
   // open graph metadata (optional)
-  description: 'TheLaPyae is the Myanmar Guy who do tech, inspire people on clubhouse and meditate.',
+  description: 'La Pyae is the Myanmar Guy who do tech,In Love with No Code tools and Love to help business with Branding. Inspire people on clubhouse and meditate.',
   socialImageTitle: 'TheLaPyae',
   socialImageSubtitle: 'Welcome to TheLaPyae Personal Website! 👋',
 
