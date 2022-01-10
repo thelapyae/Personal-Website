@@ -12,7 +12,7 @@ module.exports = {
   author: 'La Pyae',
 
   // open graph metadata (optional)
-  description: 'TheLaPyae',
+  description: 'TheLaPyae is the Myanmar Guy who do tech, inspire people on clubhouse and meditate.',
   socialImageTitle: 'TheLaPyae',
   socialImageSubtitle: 'Welcome to TheLaPyae Personal Website! 👋',
 
