@@ -17,7 +17,7 @@ module.exports = {
   socialImageSubtitle: 'Welcome to TheLaPyae Personal Website! 👋',
 
   // social usernames (optional)
-  twitter: 'thelapyae',
+  //twitter: 'thelapyae',
   //instagram: 'thelapyae'
   //github: 'transitive-bullshit',
   //linkedin: 'fisch2',
