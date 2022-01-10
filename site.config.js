@@ -1,20 +1,20 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'f280367dacd946f5b6d65dbd277860e4',
+  rootNotionPageId: '4d1f4d128bd449b0b7c9bca9ef3e3193',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'TheLaPyae Blog',
+  name: 'TheLaPyae',
   domain: 'blog.thelapyae.com',
   author: 'La Pyae',
 
   // open graph metadata (optional)
-  description: 'Blog by TheLaPyae',
+  description: 'TheLaPyae',
   socialImageTitle: 'TheLaPyae',
-  socialImageSubtitle: 'Welcome to TheLaPyae Blog! 👋',
+  socialImageSubtitle: 'Welcome to TheLaPyae Personal Website! 👋',
 
   // social usernames (optional)
   twitter: 'thelapyae',
