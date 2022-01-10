@@ -24,12 +24,12 @@
 
 .dark-mode .notion .notion-inline-code {
   background: rgb(71,76,80) !important;
-  color: #f3c12b;
+  color: #ff4081;
   padding: .2em .4em !important;
 }
 
 .light-mode .notion .notion-inline-code {
-  color: #f3c12b;
+  color: #ff4081;
   background: rgba(55,53,47, .1) !important;
   padding: .2em .4em !important;
 }
