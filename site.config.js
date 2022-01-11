@@ -1,18 +1,18 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '4d1f4d128bd449b0b7c9bca9ef3e3193',
+  rootNotionPageId: '67bd1fd56c974ac387ebe440711eb968',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'TheLaPyae - No Code Brand Strategist from Yangon',
+  name: 'Noval Heart Care',
   domain: 'blog.thelapyae.com',
   author: 'La Pyae',
 
   // open graph metadata (optional)
-  description: 'La Pyae is the Myanmar Guy who do tech,In Love with No Code tools and Love to help business with Branding. Inspire people on clubhouse and meditate.',
+  description: 'This is test website for the Noval Heart Care',
   socialImageTitle: 'TheLaPyae',
   socialImageSubtitle: 'Welcome to TheLaPyae Personal Website! 👋',
 
