@@ -13,7 +13,7 @@ module.exports = {
 
   // open graph metadata (optional)
   description: 'TheLaPyae - No Code Brand Strategist From Yangon',
-  socialImageTitle: 'TheLaPyae',
+  socialImageTitle: 'TheLaPyae is Me',
   socialImageSubtitle: 'Welcome to TheLaPyae Personal Website! 👋',
 
   // social usernames (optional)
