@@ -34,6 +34,10 @@
   margin-bottom: 1em;
 }
 
+.notion-asset-object-fit {
+  opacity: 0;
+}
+
 /* <-- Fix embedded video's size overflows its container */
 .notion-asset-wrapper-video > div,
 .notion-asset-wrapper-video video {
