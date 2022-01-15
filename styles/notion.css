@@ -34,8 +34,8 @@
   margin-bottom: 1em;
 }
 
-.notion-asset-object-fit {
-  background: none;
+.dark-mode .notion-asset-object-fit {
+  background: #2e3437;
 }
 
 /* <-- Fix embedded video's size overflows its container */
