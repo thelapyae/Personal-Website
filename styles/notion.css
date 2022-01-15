@@ -35,6 +35,10 @@
 }
 
 .dark-mode .notion-asset-object-fit {
+  background: #ffffff;
+}
+
+.dark-mode .notion-asset-object-fit {
   background: #2e3437;
 }
 
