@@ -35,7 +35,7 @@
 }
 
 .notion-asset-object-fit {
-  opacity: 0;
+  background: none;
 }
 
 /* <-- Fix embedded video's size overflows its container */
