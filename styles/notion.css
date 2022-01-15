@@ -32,6 +32,7 @@
 .notion-asset-wrapper {
   margin-top: 1em;
   margin-bottom: 1em;
+  opacity: 0;
 }
 
 /* <-- Fix embedded video's size overflows its container */
