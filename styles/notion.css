@@ -35,7 +35,7 @@
 }
 /* <-- let's see is that really fix */
 .notion-asset-wrapper iframe {
-backgroudn-color: none;
+background-color: #fff;
 }
 
 /*.notion-asset-object-fit {
