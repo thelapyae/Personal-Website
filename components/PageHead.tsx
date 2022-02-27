@@ -7,6 +7,7 @@ import * as types from 'lib/types'
 
 // TODO: remove duplication between PageHead and NotionPage Head
 
+
 export const PageHead: React.FC<types.PageProps> = ({ site }) => {
   return (
     <Head>
@@ -35,9 +36,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       <meta property='twitter:image' content='https://drive.google.com/uc?id=1sr_ZFLGNq-f49hJV_8Ifql_7tgFwS5If'/>
       
       // from here
-      
-      <Script async src="https://tally.so/widgets/embed.js"
-       window.TallyConfig = {
+      <script async src="https://tally.so/widgets/embed.js"/>
+      <script window.TallyConfig = {
   "formId": "mY9bdm",
   "popup": {
     "emoji": {
@@ -49,8 +49,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       "ms": 15000
     }
   }
-};
-      />
+}; />
+     
    
       
       // I did edit to here 
