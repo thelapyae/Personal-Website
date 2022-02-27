@@ -1,4 +1,32 @@
 import Head from 'next/head'
+
+import Script from 'next/script'
+export default function Home() {
+  return (
+    <>
+      <script async src="https://tally.so/widgets/embed.js"></script>
+
+      <script>
+window.TallyConfig = {
+  "formId": "mY9bdm",
+  "popup": {
+    "emoji": {
+      "text": "👋",
+      "animation": "wave"
+    },
+    "open": {
+      "trigger": "time",
+      "ms": 15000
+    },
+    "overlay": true,
+    "autoClose": 0
+  }
+};
+</script>
+    </>
+  )
+}
+
 import * as React from 'react'
 import * as types from 'lib/types'
 
