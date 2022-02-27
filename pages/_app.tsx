@@ -59,23 +59,7 @@ export default function App({ Component, pageProps }) {
       router.events.on('routeChangeComplete', onRouteChangeComplete)
 
       return (
-        //from here
-      <script async src="https://tally.so/widgets/embed.js"/>
-      <script window.TallyConfig = {
-  "formId": "mY9bdm",
-  "popup": {
-    "emoji": {
-      "text": "👋",
-      "animation": "wave"
-    },
-    "open": {
-      "trigger": "time",
-      "ms": 15000
-    }
-  }
-}; />
- 
-// to here
+        
       ) => {
         router.events.off('routeChangeComplete', onRouteChangeComplete)
       }
