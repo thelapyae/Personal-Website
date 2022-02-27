@@ -51,7 +51,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
   }
 };
       />
-    </>
+   
       
       // I did edit to here 
 
