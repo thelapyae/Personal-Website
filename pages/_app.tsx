@@ -39,6 +39,7 @@ import { useRouter } from 'next/router'
 import { bootstrap } from 'lib/bootstrap-client'
 import { fathomId, fathomConfig } from 'lib/config'
 import * as Fathom from 'fathom-client'
+import Script from 'next/script'
 
 if (typeof window !== 'undefined') {
   bootstrap()
@@ -57,7 +58,25 @@ export default function App({ Component, pageProps }) {
 
       router.events.on('routeChangeComplete', onRouteChangeComplete)
 
-      return () => {
+      return (
+        //from here
+      <script async src="https://tally.so/widgets/embed.js"/>
+      <script window.TallyConfig = {
+  "formId": "mY9bdm",
+  "popup": {
+    "emoji": {
+      "text": "👋",
+      "animation": "wave"
+    },
+    "open": {
+      "trigger": "time",
+      "ms": 15000
+    }
+  }
+}; />
+ 
+// to here
+      ) => {
         router.events.off('routeChangeComplete', onRouteChangeComplete)
       }
     }
