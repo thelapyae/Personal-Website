@@ -6,6 +6,25 @@ import * as React from 'react'
 import * as types from 'lib/types'
 
 // TODO: remove duplication between PageHead and NotionPage Head
+export default function Home() {
+  return (
+    <>
+      <script async src="https://tally.so/widgets/embed.js"/>
+      <script window.TallyConfig = {
+  "formId": "mY9bdm",
+  "popup": {
+    "emoji": {
+      "text": "👋",
+      "animation": "wave"
+    },
+    "open": {
+      "trigger": "time",
+      "ms": 15000
+    }
+  }
+}; />
+  )
+}
 
 
 export const PageHead: React.FC<types.PageProps> = ({ site }) => {
@@ -36,20 +55,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       <meta property='twitter:image' content='https://drive.google.com/uc?id=1sr_ZFLGNq-f49hJV_8Ifql_7tgFwS5If'/>
       
       // from here
-      <script async src="https://tally.so/widgets/embed.js"/>
-      <script window.TallyConfig = {
-  "formId": "mY9bdm",
-  "popup": {
-    "emoji": {
-      "text": "👋",
-      "animation": "wave"
-    },
-    "open": {
-      "trigger": "time",
-      "ms": 15000
-    }
-  }
-}; />
+      
      
    
       
