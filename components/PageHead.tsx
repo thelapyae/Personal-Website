@@ -34,7 +34,28 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       <meta property='twitter:description' content='TheLaPyae - No Code Brand Strategist From Yangon' />
       <meta property='twitter:image' content='https://drive.google.com/uc?id=1sr_ZFLGNq-f49hJV_8Ifql_7tgFwS5If'/>
       
+      // from here
       
+      <script async src="https://tally.so/widgets/embed.js"></script>
+
+      <script>
+window.TallyConfig = {
+  "formId": "mY9bdm",
+  "popup": {
+    "emoji": {
+      "text": "👋",
+      "animation": "wave"
+    },
+    "open": {
+      "trigger": "time",
+      "ms": 15000
+    },
+    "overlay": true,
+    "autoClose": 0
+  }
+};
+</script>
+   // I did edit to here 
 
     </Head>
   )
