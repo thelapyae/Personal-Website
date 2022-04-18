@@ -3,6 +3,12 @@ import { domain } from 'lib/config'
 import { resolveNotionPage } from 'lib/resolve-notion-page'
 import { NotionPage } from 'components'
 
+Tally.openPopup('mY9bdm', {
+  layout: 'modal', // Open as a centered modal
+  width: 700, // Set the width of the modal
+  autoClose: 5000, // Close the popup 5 seconds after form was submitted (in ms)
+});
+
 export const getStaticProps = async () => {
   try {
     const props = await resolveNotionPage(domain)
