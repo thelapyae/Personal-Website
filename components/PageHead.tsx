@@ -37,8 +37,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       
       // from here
       
-     <Script src="https://tally.so/widgets/embed.js"/>
-     <Script>
+     <Script src="https://tally.so/widgets/embed.js" />
+     <Script 
 window.TallyConfig = {
   "formId": "mY9bdm",
   "popup": {
@@ -53,7 +53,7 @@ window.TallyConfig = {
     "overlay": true
   }
 };
-</Script>
+/>
       
       // I did edit to here 
 
