@@ -59,15 +59,7 @@ import styles from './styles.module.css'
 //   { ssr: false }
 // )
 
-//edit from here
-const formId = 'mY9bdm';
-      Tally.openPopup('mY9bdm', {
-  layout: 'modal', // Open as a centered modal
-  width: 700, // Set the width of the modal
-  autoClose: 5000, // Close the popup 5 seconds after form was submitted (in ms)
-})
 
-// edit here
 
 const Equation = dynamic(() =>
   import('react-notion-x').then((notion) => notion.Equation)
