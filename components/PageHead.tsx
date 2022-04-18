@@ -37,10 +37,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       
       // from here
       
-     <Script async src="https://tally.so/widgets/embed.js"/>
-     <Script strategy="afterInteractive"
-       dangerouslySetInnerHTML={{ __html:'(
-window.TallyConfig = {
+     <Script async src="https://tally.so/widgets/embed.js"
+       window.TallyConfig = {
   "formId": "mY9bdm",
   "popup": {
     "emoji": {
@@ -53,10 +51,9 @@ window.TallyConfig = {
     },
     "layout": "modal"
   }
-}; 
-                               ', }}
-/>
-      
+};
+       />
+     
       // I did edit to here 
 
     </Head>
