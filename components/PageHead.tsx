@@ -37,8 +37,8 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       
       // from here
       
-     <Script src="https://tally.so/widgets/embed.js" />
-     <Script 
+     <Script src="https://tally.so/widgets/embed.js" strategy="worker" />
+     <script 
 window.TallyConfig = {
   "formId": "mY9bdm",
   "popup": {
