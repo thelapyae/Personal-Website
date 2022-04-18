@@ -39,22 +39,6 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       
      <Script src="https://tally.so/widgets/embed.js" />
 
-<Script window.TallyConfig = {
-  "formId": "mY9bdm",
-  "popup": {
-    "emoji": {
-      "text": "👋",
-      "animation": "wave"
-    },
-    "open": {
-      "trigger": "time",
-      "ms": 20000
-    },
-    "overlay": true
-  }
-};
-/>
-
       
       // I did edit to here 
 
