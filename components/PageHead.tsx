@@ -37,22 +37,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       
       // from here
       
-     <Script async src="https://tally.so/widgets/embed.js"
-       window.TallyConfig = {
-  "formId": "mY9bdm",
-  "popup": {
-    "emoji": {
-      "text": "👋",
-      "animation": "wave"
-    },
-    "open": {
-      "trigger": "time",
-      "ms": 20000
-    },
-    "layout": "modal"
-  }
-};
-       />
+     <Script src="https://tally.so/widgets/embed.js"/>
      
       // I did edit to here 
 
