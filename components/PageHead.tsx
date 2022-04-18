@@ -38,9 +38,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       // from here
       
      <Script src="https://tally.so/widgets/embed.js" strategy="lazayOnload" 
-       formId="mY9bdm"
-       layout= "modal"
- 
+       id="mY9bdm"
        />
      
       // I did edit to here 
