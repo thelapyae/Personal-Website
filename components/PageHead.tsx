@@ -38,13 +38,9 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       // from here
       
      <Script src="https://tally.so/widgets/embed.js" strategy="lazayOnload" 
-       
-       Tally.openPopup('mY9bdm', {
-  layout: 'modal', // Open as a centered modal
-  width: 700, // Set the width of the modal
-  autoClose: 5000, // Close the popup 5 seconds after form was submitted (in ms)
-});
-       
+       formId="mY9bdm"
+       layout= "modal"
+ 
        />
      
       // I did edit to here 
