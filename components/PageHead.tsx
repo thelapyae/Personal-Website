@@ -37,7 +37,7 @@ export const PageHead: React.FC<types.PageProps> = ({ site }) => {
       
       // from here
       
-     
+     <script async data-uid="14d0abb5b8" src="https://thelapyae.ck.page/14d0abb5b8/index.js"></script>
      
       // I did edit to here 
 
