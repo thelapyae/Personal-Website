@@ -5,9 +5,9 @@ import { resolveNotionPage } from 'lib/resolve-notion-page'
 import { NotionPage } from 'components'
 
 export default function Tally(){
-  return(
+  return{
   Tally.openPopup('mY9bdm');
-  )
+}
 };
 
 
